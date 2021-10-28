@@ -5,7 +5,7 @@ describe("sumMul", () => {
     });
 
     it('returns sum = 26 and product = 153 of a = 17 and b = 9', () => {
-        expect(sumMul(1, 2)).toBe(`Сумма = 26; Произведение = 153.`);
+        expect(sumMul(17, 9)).toBe(`Сумма = 26; Произведение = 153.`);
     });
 
     it('returns sum = 0 and product = 0 of a = 0 and b = 0', () => {
